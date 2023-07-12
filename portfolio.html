@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eunju's portfolio</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./images/profile02.png">
+
+
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+  <!-- jquery -->
+  <script src="./js/jquery-3.6.4.min.js"></script>
+  <script src="./js/jquery.mousewheel.min.js"></script>
+  <script src="./js/jquery.scrollTo.min.js"></script>
+
+  <!-- user -->
+  <script src="./js/main.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <div class="number">
+      <img src="./images/num.png" alt="num">
+    </div>
+
+    <div class="nav_wrap">
+      <nav class="nav_box">
+        <div class="gnb">
+          <div class="intro_menu">
+            <a href="#page01" class="intro on">Intro</a>
+          </div>
+          <div class="introduce_menu">
+            <a href="#page02" class="introduce">#me</a>
+          </div>
+          <div class="work_menu">
+            <a href="#page03" class="work">Work</a>
+          </div>
+          <div class="contact_menu">
+            <a href="#page05" class="contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+
+    <section id="page01" class="page01 intro">
+      <div class="contents_wrap">
+        <div class="intro_box">
+          <div class="txt_box">
+            <ul>
+              <li>&lt;&gt;</li>
+              <li>안녕하세요.</li>
+              <li>노력하는 개발자 정은주입니다.</li>
+              <li>&lt;br/&gt;</li>
+              <li>이것은 저의 포트폴리오입니다.</li>
+              <li>&lt;/&gt;</li>
+            </ul>
+          </div>
+          <div class="typing">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+
+          <div class="icon_box">
+            <img src="./images/profile04.png" alt="profile_icon">
+          </div>
+        </div>
+        <div class="scroll">
+          <div class="scroll_img"><img src="./images/arrow-down.png" alt="arrow-down"></div>
+          <div class="scroll_img"><img src="./images/arrow-down.png" alt="arrow-down"></div>
+          <p>SCROLL DOWN</p>
+        </div>
+      </div>
+
+
+    </section><!-- page01 -->
+
+    <section id="page02" class="page02">
+      <div class="contents_wrap">
+        <div class="slide_tab">
+          <div>
+            <div class="tab on">Introduce</div>
+          </div>
+          <div>
+            <div class="tab">My skills</div>
+          </div>
+          <div>
+            <div class="tab">Profile</div>
+          </div>
+        </div>
+        <div class="swiper_sheet">
+          <div class="swiper-container">
+            <!-- Slider main container -->
+            <div class="swiper page02_swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="slide01_wrap sheet_on">
+                    <div class="slide01_left">
+                      <img src="./images/profile.jpg" alt="profile">
+                    </div>
+                    <div class="slide01_right">
+                      <ul class="introduce">
+                        <li>
+                          <p>let <span class="skyblue">Jeongeunju</span> = {</p>
+                        </li>
+                        <li>
+                          <p><span class="skyblue">name</span> :<span class="orange"> "정은주"</span>,</p>
+                        </li>
+                        <li>
+                          <p><span class="skyblue">age</span> : 31,</p>
+                        </li>
+                        <li>
+                          <p>
+                            <span class="skyblue">skills</span> :
+                            <span class="pink">[ </span>
+                            <span class="orange">"HTML"</span>,
+                            <span class="orange">"CSS"</span>,
+                            <span class="orange">"JavaScript"</span>,
+                            <span class="orange">"React"</span>
+                            <span class="pink"> ]</span></p>
+                        </li>
+                        <li>
+                          <p><span class="skyblue">character</span> : <span class="orange">"사용자 관점에서 생각할 수 있는 사람”,
+                              <br />
+                              　　　　　“타인의 생각을 유연하게 받아들일 수 있는 사람”
+                            </span>
+                          </p>
+                        </li>
+                        <li>
+                          <p>};</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide02_wrap">
+                    <h1>My Skills</h1>
+                    <div class="skill_top">
+                      <div>
+                        <p>HTML5</p>
+                        <div class="progress">
+                          <div class="gauge html" per="90"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <p>CSS3</p>
+                        <div class="progress">
+                          <div class="gauge css" per="90"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <p>JavaScript</p>
+                        <div class="progress">
+                          <div class="gauge js" per="75"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <p>React</p>
+                        <div class="progress">
+                          <div class="gauge react" per="80"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill_bottom">
+                      <div class="skills">
+                        <div>
+                          <div class="circle">
+                            <a href="#!"><img src="./images/html5.png" alt="html5"></a>
+                          </div>
+                          <div class="span">- 트리 구조를 잘 이해하고 있으며 기본 문법을 활용하여 명령어를 입력할 수 있음
+                            <br />
+                            - 하이퍼링크 연결과 미디어 콘텐츠 출력이 가능함
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/CSS3.png" alt="css"></a></div>
+                          <div class="span">
+                            - CSS적용을 위한 선택자를 잘 알고 있으며 그에 따른 적용을 잘 할 수 있음
+                            <br />
+                            - 섬세한 애니메이션 동작 표현이 가능함
+                            <br />
+                            - 반응형 웹을 위한 미디어쿼리 사용이 가능
+                            <br />
+                            - 컨텐츠 배치를 위한 position, float, flex등 사용할 수 있음
+                          </div>
+
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/JS.png" alt="JavaScript"></a></div>
+                          <div class="span">
+                            - 변수를 활용할 줄 알며 배열과 객체에 대해 잘 알고 있음
+                            <br />
+                            - 조건문, 반복문, 함수, 메소드 개념에 대해 정확하게 알고 있음
+                            <br />
+                            - 스와이퍼 등 플러그인 사용 가능
+                            <br />
+                            - 스타일 컴퍼넌트 등을 사용하여 파일 안에서 CSS처리 가능
+                          </div>
+
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/react.png" alt="react"></a>
+                          </div>
+                          <div class="span">
+                            - 리덕스 툴킷 사용 가능
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/jquery.png" alt="jquery"></a>
+                          </div>
+                          <div class="span">
+
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/github.png" alt="github"></a>
+                          </div>
+                          <div class="span">
+                            협업을 위한 환경구축 및 버전 관리를 할 수 있음
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/scss_logo.png" alt="scss"></a></div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/VScode.png" alt="VSCode"></a></div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/figma.png" alt="figma"></a>
+                          </div>
+                          <div class="span">
+                            - 레이아웃의 구조를 잘 이해하며 UI디자인을 유연하게 할 수 있음
+                            <br />
+                            - 프레임에 대한 이해성이 높음
+                            <br />
+                            - 컴포넌트 기능을 활용하여 연결이 유연하도록 함
+
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/xd.png" alt="adobe-xd"></a></div>
+                          <div class="span">
+                            - 레이아웃의 구조를 잘 이해하며, 오브젝트에 대한 이해도가 높음
+                          </div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/photoshop.png" alt="photoshop"></a></div>
+                        </div>
+                        <div>
+                          <div class="circle"><a href="#!"><img src="./images/node-js.png" alt="node-js"></a></div>
+                        </div>
+
+                      </div>
+                      <div class="bar"></div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-slide">
+                  <div class="profile_wrap">
+
+                    <div class="profile_left profile_contents">
+                      <h1 style="font-size: 32px;">Profile</h1>
+                      <br />
+                      <div>
+                        <span>이 름</span>
+                        <p>정은주</p>
+                      </div>
+                      <div>
+                        <span>생년월일</span>
+                        <p>1993.03.23.</p>
+                      </div>
+                      <div>
+                        <span>지 역</span>
+                        <p>부산광역시 동구</p>
+                      </div>
+                      <div>
+                        <span>E-mail</span>
+                        <p>laco3127@gmail.com</p>
+                      </div>
+                      <div>
+                        <span>phone</span>
+                        <p>010-3072-8450</p>
+                      </div>
+
+                    </div>
+                    <div class="profile_right profile_contents">
+                      <div class="profile_right_top">
+                        <h1>Academic ability</h1>
+                        <br />
+                        <p>✨2023.07. 그린아카데미 프론트엔드 개발자
+                          <br />
+                          　(자바스크립트, React) 양성과정 수료 </p>
+                        <p>✨2015.02. 행정학과 졸업</p>
+                        <p>✨2012.02. 길원여자고등학교 졸업</p>
+                      </div>
+                      <div class="profile_right_bottom">
+                        <h1>License</h1>
+                        <br />
+                        <p>✔ 운전면허 1종 보통</p>
+                        <p>✔ ICDL advanced</p>
+                        <p>✔ 방과후 실기교사 자격증</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev swiper_btn"></div>
+              <div class="swiper-button-next swiper_btn"></div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- page02 -->
+
+    <section id="page03" class="page03">
+      <div class="contents_wrap">
+        <h1>Workspace</h1>
+        <div class="work_box">
+          <!-- <div class="modal">
+            <div class="modal_content">
+              <div class="title"></div>
+              <div class="left_area">
+                <div class="img"></div>
+              </div>
+              <div class="right_area"></div>
+            </div>
+          </div> -->
+          <div class="work03_1">
+            <div class="project_box">
+              <a href="#!"><img src="./images/project_IK_pc.png" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">리뉴얼 프로젝트 (일광전구)</span>
+              <p class="project_exp">- 적응형 웹페이지 (PC)</p>
+            </div>
+
+            <!--  <div class="pop_wrap visible">
+              <div class="btn_close"><i class="fa-solid fa-xmark"></i></div>
+              <div class="popTxt">
+                title
+              </div>
+              <p class="pop_tag">
+                <span class="pop_tag_span">
+                  #REACT리뉴얼
+                </span>
+
+              </p>
+              <p class="popTxt_D"> 다양한 컨텐츠가 존재하지만 가독성이 떨어지며, 주력하는 상품이 무엇인지 정확하게 알 수 없어 브랜드가 추구하는 감각적인 이미지와는 다른 투박한 구성이
+                아쉬워서 리뉴얼 사이트로 선정하게 되었습니다.
+              </p>
+              <a href="./assets/homepage/portfolio_react/index.html"> website 바로가기
+                <i class="fa-solid fa-arrow-right-long">
+                </i>
+              </a>
+              <a href="./assets/pdf/portfolio.pdf"> PDF 기획서 보기 <i class="fa-solid fa-download"></i>
+
+              </a>
+              <div class="popImg">
+                <img loading="lazy" src="./assets/img/popup_img/portfolio2019.jpg" alt="사이트 미리보기: 이경민 포트폴리오 2019">
+              </div>
+
+            </div> -->
+          </div>
+
+          <div class="work03_2">
+            <div class="project_box">
+              <a href="#!"><img src="./images/projects_aesop.png" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">리뉴얼 프로젝트 (Aesop)</span>
+              <p class="project_exp">- 반응형 웹페이지 (PC, Tablet, mobile)</p>
+            </div>
+          </div>
+          <div class="work03_3">
+            <div class="project_box">
+              <a href="#!"><img src="./images/screen_camera__ktj6pssy70a6_large.jpg" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">개인 사이트 하나 더 (개인적인 욕심)</span>
+              <p class="project_exp">- 적응형 웹페이지 (PC)</p>
+            </div>
+          </div>
+          <div class="work03_4">
+            <div class="project_box">
+              <a href="#!"><img src="./images/login_join_pc.png" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">로그인 및 회원가입 페이지</span>
+              <p class="project_exp">- 적응형 웹페이지 (PC)</p>
+            </div>
+          </div>
+          <div class="work03_5">
+            <div class="project_box">
+              <a href="#!"><img src="./images/project_IK_pc.png" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">리액트를 이용한 사이트</span>
+              <p class="project_exp">- 적응형 웹페이지 (PC)</p>
+            </div>
+          </div>
+          <div class="work03_6">
+            <div class="project_box">
+              <a href="#!"><img src="./images/project_IK_pc.png" alt="aesop"></a>
+            </div>
+            <div class="project_txt">
+              <span class="project_name">리뉴얼 프로젝트 (일광전구)</span>
+              <p class="project_exp">- 적응형 웹페이지 (PC)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- page03 -->
+
+    <section id="page04" class="page04">
+      <h1>Script</h1>
+      <div class="sub_box">
+        <div class="script_work01 script">
+          <div class="script_box">
+            <p>&lt;/&gt;</p>
+          </div>
+          <div class="script_txt">
+            <span class="script_name">script name (24px, bold, #222)</span>
+            <p class="scr_exp">- script explanation (16px, regular, #5B5B5B) </p>
+          </div>
+        </div>
+        <div class="script_work02 script">
+          <div class="script_box"></div>
+          <div class="script_txt">
+            <span class="script_name">script name (24px, bold, #222)</span>
+            <p class="scr_exp">- script explanation (16px, regular, #5B5B5B) </p>
+          </div>
+        </div>
+        <div class="script_work03 script">
+          <div class="script_box"></div>
+          <div class="script_txt">
+            <span class="script_name">script name (24px, bold, #222)</span>
+            <p class="scr_exp">- script explanation (16px, regular, #5B5B5B) </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="page05" class="page05">
+      <div class="contents_wrap">
+        <h1>Contact me!</h1>
+        <div class="contact_wrap">
+          <div class="contact_box">
+            <div class="contact_txt">
+              <p class="contact_message">
+                &lt;&gt;<br />
+                봐 주셔서 감사합니다.<br />
+                &lt;br /&gt; <br />
+                편하게 연락주세요. <br />
+                &lt;/&gt;
+              </p>
+
+              <strong class="contact_strong">
+                &lt;strong &gt;<br />
+                <span>email: laco3127@gmail.com</span><br />
+                <span>phone: 01030728450</span><br />
+                &lt;/strong&gt;<br />
+              </strong>
+            </div>
+            <div class="contact_media">
+              <div class="video">
+                video 1분 내외 자기 PR가능한 것.. <br />
+
+              </div>
+              <div class="sns">
+                <div><img src="./images/github_logo_icon_147285.png" alt="github"></div>
+                <div><img src="./images/mail_ru_logo_icon_147267.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+              <br />ⓒ 2023. Jeongeunju All Rights Reserved.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <!-- <div class="popup">
+    <div class="popup_wrap">
+      <h2>레이어 팝업 제목</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit Quo recusandae aliquid, temporibus qui incidunt
+        dolorem?
+        Dolor, odio aliquam hic eligendi eaque, cum culpa ea quam non
+        quasi vitae temporibus officiis molestias! Nihil repellendus
+      </p>
+      <a href="#">닫기X</a>
+    </div>
+  </div>
+  <div><img src="./images/#DAC7AA.png" alt=""></div>
+  <button class="popup_open">팝업오픈</button>
+   -->
+  <div id="openPopup" class="openPopup">
+    <div id="popup_01">
+      <div class="close">close</div>
+      <div>
+        <h1 style="margin: 20px;">브랜드 "일광전구", 리뉴얼 프로젝트</h1>
+        <div class="hash">
+          <div>#반응형</div>
+          <div>#디자인 리뉴얼</div>
+          <div>#퍼블리싱 100%</div>
+        </div>
+        <div class="modal_contents_wrap">
+          <div class="modal_left">
+            <div class="swiper modal_swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/aesop_project.png" alt=""></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev swiper_btn"></div>
+              <div class="swiper-button-next swiper_btn"></div>
+
+            </div>
+
+
+          </div>
+          <div class="modal_right">
+            <div>다양한 컨텐츠가 존재하지만 가독성이 떨어지며, 주력하는 상품이 무엇인지 정확하게 알 수 없어 브랜드가 추구하는 감각적인 이미지와는 다른 투박한 구성이 아쉬워서 리뉴얼 사이트로 선정하게
+              되었습니다.</div>
+            <div>- 제작기간: 3주</div>
+            <div>- 사용 언어 : HTML5, CSS3, JavaScript, jQuery </div>
+            <div>- 주요 기능 : 스와이퍼, 미디어쿼리, 제이쿼리 </div>
+            <div>👩‍🏫 처음 해보는 팀프로젝트였는데, 기획 단계부터 디자인 수정까지 팀원들과의 회의를 통해 아이디어를 도출할 수 있었습니다. 구글 스프레드시드를 통해 함께 기획안을 만들었고, xd와
+              figma를 이용하여 시안과 프로토타입을 제작하였으며 코딩은 개개인이 100%의 역량을 발휘하여 사이트를 제작하였습니다.
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524%28document%29.ready%28function%2520%28%29%2520%257B%2520%2520%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.first%2522%252C%2520%257B%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520slideToClickedSlide%253A%2520true%252C%250A%2520%2520%2520%2520autoplay%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520delay%253A%25202500%252C%250A%2520%2520%2520%2520%2520%2520disableOnInteraction%253A%2520false%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520pagination%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520el%253A%2520%2522.swiper-pagination%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%257D%29%253B%250A%250A%2520%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.second%2522%252C%2520%257B%250A%2520%2520%2520%2520slidesPerView%253A%25204%252C%250A%2520%2520%2520%2520spaceBetween%253A%252020%252C%250A%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520loopFillGroupWithBlank%253A%2520true%252C%250A%2520%2520%2520%2520navigation%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520nextEl%253A%2520%2522.swiper-button-next%2522%252C%250A%2520%2520%2520%2520%2520%2520prevEl%253A%2520%2522.swiper-button-prev%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520breakpoints%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520375%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25202%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252010%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%2520%2520950%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25203%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252016%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%2520%25201160%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25204%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252020%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%257D%29%253B%250A%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.thirdSwiper%2522%252C%2520%257B%250A%2520%2520%2520%2520slidesPerView%253A%25201%252C%250A%2520%2520%2520%2520spaceBetween%253A%25200%252C%250A%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520loopFillGroupWithBlank%253A%2520true%252C%250A%2520%2520%2520%2520navigation%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520nextEl%253A%2520%2522.swiper-button-next%2522%252C%250A%2520%2520%2520%2520%2520%2520prevEl%253A%2520%2522.swiper-button-prev%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520autoplay%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520delay%253A%25202500%252C%250A%2520%2520%2520%2520%2520%2520disableOnInteraction%253A%2520false%252C%250A%2520%2520%2520%2520%257D%252C%250A%250A%2520%2520%257D%29%253B"
+              style="width: 513px; height: 1284px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="btn_wrap">
+              <div><a href="#!">코드보기</a></div>
+              <div><a href="https://github.com/25809637410/ik-lighting" target="_blank">github</a></div>
+              <div><a href=" https://25809637410.github.io/ik-lighting/" target="_blank">사이트 바로가기</a></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="openPopup2" class="openPopup">
+    <div id="popup_02">
+      <div class="close">close</div>
+      <div>
+        <h1 style="margin: 20px;">브랜드 "이솝", 리뉴얼 프로젝트</h1>
+        <div class="hash">
+          <div>#적응형</div>
+          <div>#디자인 리뉴얼</div>
+          <div>#퍼블리싱 100%</div>
+        </div>
+        <div class="modal_contents_wrap">
+          <div class="modal_left">
+            <div class="swiper modal_swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/aesop_project.png" alt=""></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev swiper_btn"></div>
+              <div class="swiper-button-next swiper_btn"></div>
+
+            </div>
+
+
+          </div>
+          <div class="modal_right">
+            <div>다양한 컨텐츠가 존재하지만 가독성이 떨어지며, 주력하는 상품이 무엇인지 정확하게 알 수 없어 브랜드가 추구하는 감각적인 이미지와는 다른 투박한 구성이 아쉬워서 리뉴얼 사이트로 선정하게
+              되었습니다.</div>
+            <div>- 제작기간: 3주</div>
+            <div>- 사용 언어 : HTML5, sCSS, JavaScript, jQuery </div>
+            <div>- 주요 기능 : 스와이퍼, 제이쿼리, </div>
+            <div> 👩‍🏫 처음 해보는 프로젝트라 기획 단계부터 난관에 부딪혔지만 Adobe XD를 이용하여 리디자인하고 미디어쿼리를 사용하여 반응형 사이트를 제작할 수 있게 되었고, 제이쿼리를
+              이용하여 자바스크립트를 쉽고 빠르게 활용할 수 있었습니다.</div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524%28document%29.ready%28function%2520%28%29%2520%257B%2520%2520%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.first%2522%252C%2520%257B%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520slideToClickedSlide%253A%2520true%252C%250A%2520%2520%2520%2520autoplay%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520delay%253A%25202500%252C%250A%2520%2520%2520%2520%2520%2520disableOnInteraction%253A%2520false%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520pagination%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520el%253A%2520%2522.swiper-pagination%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%257D%29%253B%250A%250A%2520%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.second%2522%252C%2520%257B%250A%2520%2520%2520%2520slidesPerView%253A%25204%252C%250A%2520%2520%2520%2520spaceBetween%253A%252020%252C%250A%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520loopFillGroupWithBlank%253A%2520true%252C%250A%2520%2520%2520%2520navigation%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520nextEl%253A%2520%2522.swiper-button-next%2522%252C%250A%2520%2520%2520%2520%2520%2520prevEl%253A%2520%2522.swiper-button-prev%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520breakpoints%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520375%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25202%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252010%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%2520%2520950%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25203%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252016%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%2520%25201160%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerView%253A%25204%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520spaceBetween%253A%252020%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%257D%29%253B%250A%250A%2520%2520var%2520swiper%2520%253D%2520new%2520Swiper%28%2522.thirdSwiper%2522%252C%2520%257B%250A%2520%2520%2520%2520slidesPerView%253A%25201%252C%250A%2520%2520%2520%2520spaceBetween%253A%25200%252C%250A%2520%2520%2520%2520slidesPerGroup%253A%25201%252C%250A%2520%2520%2520%2520loop%253A%2520true%252C%250A%2520%2520%2520%2520loopFillGroupWithBlank%253A%2520true%252C%250A%2520%2520%2520%2520navigation%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520nextEl%253A%2520%2522.swiper-button-next%2522%252C%250A%2520%2520%2520%2520%2520%2520prevEl%253A%2520%2522.swiper-button-prev%2522%252C%250A%2520%2520%2520%2520%257D%252C%250A%2520%2520%2520%2520autoplay%253A%2520%257B%250A%2520%2520%2520%2520%2520%2520delay%253A%25202500%252C%250A%2520%2520%2520%2520%2520%2520disableOnInteraction%253A%2520false%252C%250A%2520%2520%2520%2520%257D%252C%250A%250A%2520%2520%257D%29%253B"
+              style="width: 513px; height: 1284px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="btn_wrap">
+              <div><a href="#!">코드보기</a></div>
+              <div><a href="https://github.com/25809637410/samjin-shop">github</a></div>
+              <div><a href="https://25809637410.github.io/samjin-shop/" target="_blank">사이트 바로가기</a></div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
